@@ -1,0 +1,21 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+header {
+  background-color: #2196F3;
+  color: #ffffff;
+  grid-column: span 12;
+}
+
+main {
+  grid-column: span 12;
+}
