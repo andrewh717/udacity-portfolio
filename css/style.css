@@ -2,6 +2,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   width: 100%;
+  text-align: center;
 }
 
 .grid-container {
@@ -14,8 +15,18 @@ header {
   background-color: #2196F3;
   color: #ffffff;
   grid-column: span 12;
+  text-align: left;
 }
 
 main {
   grid-column: span 12;
+}
+
+section {
+  margin: 2rem 15rem auto 15rem;
+  text-align: left;
+}
+
+.header-text {
+  margin-left: 15rem;
 }
