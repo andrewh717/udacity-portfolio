@@ -1,32 +1,33 @@
-html, body {
+html,
+body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   width: 100%;
   text-align: center;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto;
-}
-
 header {
   background-color: #2196F3;
   color: #ffffff;
-  grid-column: span 12;
   text-align: left;
 }
 
+#header {
+  padding: 0;
+}
+
 main {
-  grid-column: span 12;
+  margin: 2rem auto 2rem auto;
 }
 
 section {
-  margin: 2rem 15rem auto 15rem;
   text-align: left;
 }
 
 .header-text {
-  margin-left: 15rem;
+  margin: 1rem;
+}
+
+.logo {
+  margin: 1rem;
 }

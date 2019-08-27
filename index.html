@@ -3,18 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Andrew Hernandez</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="grid-container">
-    <header>
-      <h1 class="header-text">Andrew Hernandez</h1>
-    </header>
+  <header>
+    <div class="container">
+      <div class="row">
+        <img class="img-fluid logo" src="img/att-logo-50.png" alt="AT&T logo">
+        <h1 class="header-text">Andrew Hernandez</h1>
+      </div>
+    </div>
+  </header>
+  <div class="container">
     <main>
       <section class="about">
         <h2>About</h2>
@@ -25,16 +32,26 @@
         </p>
         <p>
           Outside of sharpening my skills as a developer, I love to spend my time playing video games. Whether it be
-          League of Legends, Super Smash Bros., or even Pokemon Go, you can usually find me enjoying a game with friends or
+          League of Legends, Super Smash Bros., or even Pokemon Go, you can usually find me enjoying a game with friends
+          or
           family.
         </p>
       </section>
       <section class="experience">
         <h2>Experience</h2>
         <ul>
-          <li>AT&T</li>
-          <li>Rutgers OIT</li>
-          <li>Ziel</li>
+          <li>
+            <h4>AT&T</h4>
+            <p>I worked as an intern at AT&T during the summer of 2018 and luckily was given the opportunity return full-time in July 2019! Currently, most of the work I'm doing is front-end web development with Angular.</p>
+          </li>
+          <li>
+            <h4>Rutgers OIT</h4>
+            <p>As a ResNet certified Lab Consultant my job is to resolve computer issues and maintain printers for lab patrons. Additionally, I assist with anything from password resets to network troubleshooting.</p>
+          </li>
+          <li>
+            <h4>Ziel</h4>
+            <p>During my internship at this NYC startup, I designed initial website mockups by wireframing using Adobe Illustrator and Photoshop, and wrote PaperJS scripts to create clothing patterns. I also conducted market research surveys to see which specific kinds of products our targeted audience desired.</p>
+          </li>
         </ul>
       </section>
       <section class="projects">
@@ -48,14 +65,25 @@
       <section class="oreo">
         <h2>Pictures of My Cat</h2>
         <p>Since I needed to include at least 4 images, here's some pictures of my cat, Oreo!</p>
-        <img src="img/oreo1.jpg" alt="Baby Oreo">
-        <img src="img/oreo2.jpg" alt="Loafing Oreo">
-        <img src="img/oreo3.jpg" alt="Christmas Oreo">
-        <img src="img/oreo4.jpg" alt="Oreo looking out the window">
+        <div class="row">
+          <img class="img-fluid col col-md-3" src="img/oreo1.jpg" alt="Baby Oreo">
+          <img class="img-fluid col col-md-3" src="img/oreo2.jpg" alt="Loafing Oreo">
+          <img class="img-fluid col col-md-3" src="img/oreo3.jpg" alt="Christmas Oreo">
+          <img class="img-fluid col col-md-3" src="img/oreo4.jpg" alt="Oreo looking out the window">
+        </div>
       </section>
     </main>
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
